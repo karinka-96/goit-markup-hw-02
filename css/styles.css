@@ -1,0 +1,129 @@
+/* Акцентний колір - #2196F3 */
+/* Вторинний колір - #188CE8 */
+
+/* Основний колір тексту -  #212121*/
+/* Вторинний колір тексту - #757575 */
+
+/* Основний колір фону - #FFFFFF */
+/* Вторинний колір фону - #F5F4FA */
+/* Колір беку для футера - #2F303A */
+
+:root {
+    --accent-color: #2196F3;
+    --secondary-color: #188CE8;
+    --primary-text-color: #757575;
+    --tittle-text-color: #212121;
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #F5F4FA;
+    --footer-bg-color: #2F303A;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+/* СТИЛІ ДЛЯ СТОРІНКИ index.html */
+
+.header {
+    background-color: var(--primary-bg-color);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.logo-text {
+    color: var(--tittle-text-color);
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+
+.nav-link {
+    color: var(--tittle-text-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.nav-auth {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.nav-auth:hover,
+.nav-auth:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--footer-bg-color);
+}
+
+.hero .tittle {
+    color: #FFFFFF;
+    font-size: 44px;
+}
+
+.button-hero {
+    background-color: var(--accent-color);
+}
+
+.button-hero:focus,
+.button-hero:hover {
+    background-color: var(--secondary-color);
+}
+
+.features .tittle {
+    color: var(--tittle-text-color);
+}
+
+.tittle-sections {
+    color: var(--tittle-text-color);
+}
+
+.work-list,
+.team-list,
+.features-list,
+.nav-list {
+    list-style-type: none;
+}
+
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
+.team-list .tittle {
+    color: var(--tittle-text-color);
+}
+
+.team-card {
+    background-color: var(--primary-bg-color);
+}
+
+
+
+
+.footer {
+    background-color: var(--footer-bg-color);
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+.footer-address {}
+
+.footer-address {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+/* СТИЛІ ДЛЯ СТОРІНКИ portfolio.html */
