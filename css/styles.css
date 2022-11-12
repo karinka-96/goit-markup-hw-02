@@ -127,3 +127,23 @@ body {
 
 
 /* СТИЛІ ДЛЯ СТОРІНКИ portfolio.html */
+
+.filters-list,
+.products-list {
+    list-style: none;
+}
+
+.product-card{
+    background-color: var(--primary-bg-color);
+}
+
+.filters .btn {
+    color: var(--tittle-text-color);
+    background-color: var(--secondary-bg-color);
+}
+
+.filters .btn:hover,
+.filters .btn:focus {
+    color: tomato:
+    background-color: var(--accent-colors);
+}
