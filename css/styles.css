@@ -21,10 +21,11 @@
 body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
+    font-family: Roboto, serif;
 }
-
-/* СТИЛІ ДЛЯ СТОРІНКИ index.html */
-
+button{
+    font-family: inherit;
+}
 .header {
     background-color: var(--primary-bg-color);
 }
@@ -35,6 +36,11 @@ body {
 
 .logo-text {
     color: var(--tittle-text-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .logo-accent {
@@ -50,9 +56,17 @@ body {
     color: var(--accent-color);
 }
 
+.footer-address,
 .nav-auth {
     text-decoration: none;
     color: var(--primary-text-color);
+}
+
+.nav-auth{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .nav-auth:hover,
@@ -60,17 +74,33 @@ body {
     color: var(--accent-color);
 }
 
+
+
+
+
+/* СТИЛІ ДЛЯ СТОРІНКИ index.html */
 .hero {
     background-color: var(--footer-bg-color);
 }
 
 .hero .tittle {
     color: #FFFFFF;
+    font-weight: 900;
     font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button-hero {
     background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
 }
 
 .button-hero:focus,
@@ -80,9 +110,23 @@ body {
 
 .features .tittle {
     color: var(--tittle-text-color);
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-list p {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .tittle-sections {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--tittle-text-color);
 }
 
@@ -99,6 +143,18 @@ body {
 
 .team-list .tittle {
     color: var(--tittle-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-card p {
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        
 }
 
 .team-card {
@@ -107,6 +163,7 @@ body {
 
 
 
+/* СТИЛІ ДЛЯ ФУТЕРА */
 
 .footer {
     background-color: var(--footer-bg-color);
@@ -114,14 +171,33 @@ body {
 
 .logo-footer {
     color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
 }
-
-.footer-address {}
-
-.footer-address {
+.footer-address{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.footer-address a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-address a:hover,
+.footer-address a:focus {
+    color: var(--accent-color);
+}
+
+
+
 
 
 
@@ -142,8 +218,32 @@ body {
     background-color: var(--secondary-bg-color);
 }
 
-.filters .btn:hover,
-.filters .btn:focus {
-    color: tomato:
-    background-color: var(--accent-colors);
+.product-card h3{
+    color: var(--tittle-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.product-card p{
+    line-height: 1.88;
+    letter-spacing: 0.03sem;
+}
+
+.btn{
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--tittle-text-color);
+    background: var(--secondary-bg-color);
+    border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--accent-color);
 }
