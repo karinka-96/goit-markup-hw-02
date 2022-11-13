@@ -34,6 +34,13 @@ button{
     text-decoration: none;
 }
 
+.nav-list a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
 .logo-text {
     color: var(--tittle-text-color);
     font-family: 'Raleway';
@@ -97,6 +104,7 @@ button{
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
+    line-height: 30px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -111,7 +119,7 @@ button{
 .features .tittle {
     color: var(--tittle-text-color);
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -180,7 +188,7 @@ button{
 
 }
 .footer-address{
-        font-weight: 400;
+        font-style: normal;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -213,7 +221,7 @@ button{
     background-color: var(--primary-bg-color);
 }
 
-.filters .btn {
+.filters-list .btn {
     color: var(--tittle-text-color);
     background-color: var(--secondary-bg-color);
 }
